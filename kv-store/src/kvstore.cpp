@@ -1,9 +1,9 @@
 #include "hashmap.h"
 
 int main(int argc, char *argv[]) {
-  HashMap hashmap;
+  HashMap<int> hashmap;
 
-  hashmap.hello();
+  hashmap.Hello();
 
   return 0;
 }
