@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-find src/ | entr -s 'make && ./bin/kvstore'
+find ./src ./inc -type f | entr -s 'bear -- make clean && make all && clear && ./bin/kvstore'

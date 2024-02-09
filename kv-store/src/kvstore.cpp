@@ -1,9 +1,12 @@
-#include "hashmap.h"
+#include "linked_list.h"
+#include <iostream>
 
 int main(int argc, char *argv[]) {
-  HashMap<int> hashmap;
+  LinkedList<int> list;
+  list.append(1);
+  list.append(2);
 
-  hashmap.Hello();
+  std::cout << list << std::endl;
 
   return 0;
 }
